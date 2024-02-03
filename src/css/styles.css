@@ -58,14 +58,14 @@ body {
     color: hsl(210, 10%, 60%);
 }
 
-.cabecalho .botoes {
+.cabecalho .botoes{
     display: flex;
     gap: 30px;
     padding: 50px;
     margin-bottom: 100px;
+    font-size: 400px;
 
 }
-
 .btn-verde {
     background-color: hsl(171, 66%, 44%);
     width: 200px;
@@ -76,6 +76,14 @@ body {
     filter: drop-shadow(0.1px 5px hsl(175, 89%, 32%));
     color: #fff;
     font-weight: 200;
+}
+.btn-verde:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.btn-azul:hover{
+    cursor: pointer;
+    opacity: 0.7;
 }
 
 .btn-azul {
@@ -152,7 +160,7 @@ body {
 }
 .terceira-secao .imagem-dispositivo{
     display: flex;
-    width: 100%;
+    width: 60%;
 }
 
 .terceira-secao .titulo {
@@ -179,7 +187,13 @@ body {
 }
 
 .quarta-secao .titulo {
+    color: hsl(210, 10%, 33%);
+    font-size: 35px;
     padding: 30px 0;
+}
+.quarta-secao .subtitulo{
+    font-size: 20px;
+    color: hsl(210, 10%, 60%);
 }
 
 .quarta-secao .imagens-secao-quatro {
@@ -188,8 +202,9 @@ body {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center; 
-    padding: 100px 0;
+    padding: 150px 0;
     gap:30px;
+    margin-top: -80px;
 }
 .quarta-secao .imagens-secao-quatro .info-sq {
     display: flex;
@@ -222,11 +237,12 @@ body {
 
     width: 80%;
     height: auto;
+    flex-wrap: nowrap;
 
 }
 
 .quarta-secao .imagens-secao-quatro .info-sq .info-um .texto-centro .titulo {
-    font-size: 20px;
+    font-size: 23px;
     padding: 20px 0;
     color: hsl(210, 10%, 33%);
     justify-content: center;
@@ -236,7 +252,7 @@ body {
 
 .quarta-secao .imagens-secao-quatro .info-sq .info-dois .texto-centro .titulo {
     
-    font-size: 20px;
+    font-size: 23px;
     padding: 20px 0;
     color: hsl(210, 10%, 33%);
     justify-content: center;
@@ -245,7 +261,7 @@ body {
 
 .quarta-secao .imagens-secao-quatro .info-sq .info-tres .texto-centro .titulo {
 
-    font-size: 20px;
+    font-size: 23px;
     padding: 20px 0;
     color: hsl(210, 10%, 33%);
     justify-content: center;
@@ -253,12 +269,12 @@ body {
 }
 
 .quarta-secao .imagens-secao-quatro .info-sq .info-um .texto-centro .subtitulo {
-    font-size: 14px;
+    font-size: 15px;
     color: hsl(210, 10%, 60%);
     justify-content: center;
     align-items: center;
     text-align: center;
-    max-width: 300px;
+    max-width: 450px;
 }
 
 .quarta-secao .imagens-secao-quatro .info-sq .info-dois .texto-centro .subtitulo {
@@ -266,7 +282,7 @@ body {
     color: hsl(210, 10%, 60%);
     align-items: center;
     text-align: center;
-    max-width: 300px;
+    max-width: 450px;
 }
 
 .quarta-secao .imagens-secao-quatro .info-sq .info-tres .texto-centro .subtitulo {
@@ -274,16 +290,16 @@ body {
     color: hsl(210, 10%, 60%);
     align-items: center;
     text-align: center;
-    max-width: 300px;
+    max-width: 450px;
 }
 
 .img-listanegra,
 .icone-texto,
 .icone-previa {
-    width: 65px;
-    padding: 10px;
+    width: 50px;
+    padding: 5px;
     justify-content: center;
-    margin-left: 35%;
+    margin-left: 45%;
 }
 
 .quarta-secao .container {
@@ -298,6 +314,7 @@ body {
     justify-content: space-around;
     align-self: center;
     gap: 50px;
+    padding: 100px;
 }
 
 .box-google,
@@ -389,13 +406,15 @@ ul, li, a{
     flex-direction: column;
     justify-items: left;
     align-self: center;
-
 }
 
+
+.footer-pagina .container .suporte ul .contato .li a {
+    transition: 0.5s;
+}
 .footer-pagina .container .guia {
     gap: 5px;
     flex-direction: column;
-    /* Adiciona a direção da coluna */
 }
 
 .footer-pagina .container .redes-sociais {

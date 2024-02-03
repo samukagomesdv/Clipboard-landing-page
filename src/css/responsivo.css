@@ -51,6 +51,15 @@
             width: 90%;
             text-align: center;
         }
+        .quarta-secao .titulo{
+            width: 90%;
+            text-align: center;
+        }
+        .quarta-secao .subtitulo {
+            width: 90%;
+            text-align: center;
+        }
+
 
         .terceira-secao .subtitulo {
             width: 90%;
@@ -69,10 +78,6 @@
         .ultima-secao .subtitulo {
             width: 90%;
             text-align: center;
-        }
-
-        .box-logos {
-            flex-direction: column;
         }
 
         .botoes {
@@ -115,6 +120,9 @@
             max-width: 90%;
             margin-left: 20px;
         }
+        .box-logos {
+            flex-direction: column;
+        }
 
         .footer-pagina .container {
             flex-direction: column;
@@ -139,5 +147,6 @@
             align-self: center;
 
         }
+
     }
 }
